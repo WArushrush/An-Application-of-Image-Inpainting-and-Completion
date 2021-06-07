@@ -283,7 +283,7 @@ def main(img_path):
         # print(gmin_x, gmin_y, gmax_x, gmax_y)
 
         # !!!!!!!!!
-        # img = ref[gmin_x: gmax_x + 1, gmin_y:gmax_y + 1, :]
+        img = ref[gmin_x: gmax_x + 1, gmin_y:gmax_y + 1, :]
         # !!!!!!!!!
 
         if l == depth:
@@ -291,7 +291,7 @@ def main(img_path):
             # img = np.zeros([gmax_x - gmin_x + 1, gmax_y - gmin_y + 1, 3])
 
             # !!!!!!!!!!
-            img = np.random.randint(0, 256, size=(gmax_x - gmin_x + 1, gmax_y - gmin_y + 1, 3), dtype=np.uint8)
+            # img = np.random.randint(0, 256, size=(gmax_x - gmin_x + 1, gmax_y - gmin_y + 1, 3), dtype=np.uint8)
             # !!!!!!!!!!
 
             # print(np.shape(img)[0] // 4)
@@ -323,8 +323,8 @@ def main(img_path):
 
 
 if __name__ == '__main__':
-    # img_path = 'IMAGE/face.jpg'
-    img_path = 'IMAGE/birds.jpg'
+    img_path = 'D://project//Image_Completion//IMAGE//face.jpg'
+    # img_path = 'D://project//Image_Completion//IMAGE//birds.jpg'
     while True:
         img_path = main(img_path)
 
