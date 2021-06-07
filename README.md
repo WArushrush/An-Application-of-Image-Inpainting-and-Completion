@@ -1,9 +1,7 @@
-# Patch_Match_python
-The algorithm of patch match implemented by python
+# An Application of Image Inpainting and Completion using Patch Match and Space-Time Video Completion
+An Application of Image Inpainting and Completion using Patch Match and Space-Time Video Completion which is also used in Adobe Photoshop CS5.
 # Introduction
-This code mainly implement the algorithm of patch match, for details, please see the paper: [PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing](http://gfx.cs.princeton.edu/pubs/Barnes_2009_PAR/patchmatch.pdf)
-
-There are two patchmatch code: PatchMatch.py and PatchMatch_Bidirectional.py. The last one serves for the code [DeepImageAnalogy](https://github.com/MingtaoGuo/Deep-image-analogy-TensorFlow)
+This code mainly implement the algorithm of patch match, and space-time video completion for details, please see the paper: [PatchMatch: A Randomized Correspondence Algorithm for Structural Image Editing](http://gfx.cs.princeton.edu/pubs/Barnes_2009_PAR/patchmatch.pdf), [Space-Time Completion of Video](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/spacetimecompletion-pami.pdf)
 
 ### DeepImageAnalogy example
 |Input|:|Output|::|Output|:|Input|
